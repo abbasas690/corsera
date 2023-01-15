@@ -8,6 +8,8 @@
 .heading{
   text-align:center;
   font-size:1.5em;
+  font-weight:bold;
+  color:lightgreen;
 }
 .container{
   margin: 0 auto;
@@ -53,10 +55,14 @@ h1 {
     width:100%;
   }
 }
-@media screen and (min-width:200px){
+@media screen and (min-width:478px){
 
+  .container{
+    padding:20px;
+  }
   section{
-    width:50%;
+    width:100%;
+    margin-left:20px ;
   }
 }
 
